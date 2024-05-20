@@ -1,0 +1,226 @@
+body{ 
+    margin: auto;
+    background-color: #f8fafc;
+}
+.body--width{
+    margin: 1.5rem;
+    /* max-width: 1512px; */
+}
+.header, .header__contenaire, .header--menu{
+    display: flex;
+    justify-content: space-between ; 
+}
+.header__contenaire {
+   width: 60rem;
+}
+.header__contenaire--menu{
+    display: flex;
+}
+.header--menu{
+    gap: 1rem;
+}
+.burgeur{
+    padding-top: 1rem;
+}
+.header__contenaire{
+    gap: 1rem;
+}
+.nav__recherche{
+    width: 40rem;
+    background-color: #f1f3f4;
+    display: flex;
+    border: none;
+    gap: 1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding: 1rem;
+}
+.recherche{
+    border: none;
+    background-color: #f1f3f4 ;
+}
+.bi-search__R{
+   padding-top: 1vh;
+}
+.btn__newContact{
+    background-color: #c1e7ff;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.add{
+    padding-top: 7%;
+}
+.btn{
+    display: flex;
+    gap:2rem;
+    align-items: center;
+}
+.btn__newContact--icon{
+    display: flex;
+    gap:7rem; 
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 0,5rem;
+    background-color: #c1e7ff; 
+}
+.sumCont{
+    margin-top: 1vh;
+}
+.main__body{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+.Contact__main{
+    width: 200rem;
+    background-color: white;
+    height:100vh;
+    border-radius: 1rem;
+}
+.contact__libele{
+    /* width: 60rem; */
+    display: flex;
+    justify-content: space-between;  
+}
+.contact__contenair.afficher{
+    display: none;
+    opacity: 0;
+    transition: 5s;
+}
+/* libelle */
+.libele{
+    display: flex;
+    justify-content: space-between;
+}
+.bureau, .famille, .amis{
+    display: flex;
+    gap: 1rem;
+}
+.label{
+    margin-top: 1rem;
+}
+/* popver design*/
+.addcontact{ 
+    display: none;
+    background-color: white; 
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    transition: 50ms;
+}
+.addNewContact, .addMeContact{
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+.newcont{
+    margin-top: 5%;
+}
+.addcontact.show{
+    display: block;
+}
+/* design form */
+.photo{
+    width: 150px;   
+}
+.form{
+    margin-top: 2%;
+    display: none;
+    background-color: white;
+    width: 700px;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+.btn__saved{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.buttonSaved{
+    border: none;
+    border-radius: 30px;
+    padding: 2%;
+    margin-right: 5rem;
+}
+.photo{
+    margin-bottom: 1rem;
+}
+.buttonLibelle{
+    display: flex;
+    gap: 1rem;
+    border-radius: 10px;
+    border: 1px;
+    margin-bottom:  1rem; 
+    padding-right: 2%;
+}
+.lib{
+    padding-top: 10%;
+}
+.prenomd, .entreprise, .email, .nom, .fonction, .tel, .addEmail{
+    padding: 1%;
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+.nom, .fonction, .tel, .addEmail{
+    margin-left: 4%;
+}
+.addEmail{
+    border-radius: 20px;
+    border: none;
+}
+/* .allContacts.showContact{
+    display: none;
+} */
+.arrow.showform{
+    display: none;
+}
+.form.showform{
+    display: block;
+}
+
+/* add new libelle */
+.newLibelle{
+    display: none;
+    background-color: white;
+    width: 20rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    transition: 50ms;
+    padding: 1%;
+}
+.newLib{
+    width: 16rem;
+    padding: 3%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-left: 1rem;
+}
+.btnNewlib{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+.btnNewl{
+    border: none;
+    background-color: white;
+    margin-bottom: 2%;
+}
+.newLibelle.showLibel{
+    display: block;
+    transition: 30ms;
+}
+/* liste contact */
+.ajoutContactList{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.ajoutContact.afficheContact{
+    display: block;
+
+}
